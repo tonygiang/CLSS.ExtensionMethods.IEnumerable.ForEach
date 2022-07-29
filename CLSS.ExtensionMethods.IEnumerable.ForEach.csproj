@@ -7,6 +7,8 @@
     <Authors>TonyGiang</Authors>
     <Description>An extension method to provide ForEach as found in List to every IEnumerable type. A part of the C# Language Syntactic Sugar suite.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/tonygiang/CLSS.ExtensionMethods.IEnumerable.ForEach</RepositoryUrl>
+    <PackageTags>CLSS</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
