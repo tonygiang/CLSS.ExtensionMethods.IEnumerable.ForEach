@@ -11,7 +11,7 @@
 
 ### Solution
 
-This package provides `ForEach` for all `IEnumerable<T>` collections to address all of the above issues`.
+This package provides `ForEach` for all `IEnumerable<T>` collections to address all of the above issues.
 
 Using `ForEach` with `HashSet`:
 
