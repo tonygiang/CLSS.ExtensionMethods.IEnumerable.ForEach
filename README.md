@@ -15,7 +15,7 @@ This package provides `ForEach` for all `IEnumerable<T>` collections to address 
 
 Using `ForEach` with `HashSet`:
 
-```
+```csharp
 using CLSS;
 
 var uniqueIDs = new HashSet<int>() { 2, 4, 15, 22 };
@@ -23,7 +23,7 @@ uniqueIDs.ForEach(id => Console.WriteLine($"id: {id}"));
 ```
 `ForEach` returns the source collection to continue to be used in a functional-style call chain:
 
-```
+```csharp
 using CLSS;
 using Newtonsoft.Json.Linq;
 using System.Linq;
@@ -37,7 +37,7 @@ var itemNodes = JArray.Parse(rawJSON).Properties()
 
 Using `ForEach` with impure methods:
 
-```
+```csharp
 using CLSS;
 using UnityEngine;
 
@@ -48,7 +48,7 @@ assetNames.ForEach(AssetBundle.LoadAssetAsync);
 
 Using `ForEach` with JavaScript-style optional arguments:
 
-```
+```csharp
 using CLSS;
 
 (new float[] { 9.5f, 23.6f, 5.0f, 14.1f })
@@ -63,7 +63,7 @@ using CLSS;
 
 The exact return type of `ForEach` will be determined by the invocation syntax. Below is how return type rules apply:
 
-```
+```csharp
 using CLSS;
 
 var numbers = new float[] { 0.0f, 1.0f, 2.0f };

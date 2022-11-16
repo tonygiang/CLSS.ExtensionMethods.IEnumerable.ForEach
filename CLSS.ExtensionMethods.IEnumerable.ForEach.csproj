@@ -10,8 +10,8 @@
     <RepositoryUrl>https://github.com/tonygiang/CLSS.ExtensionMethods.IEnumerable.ForEach</RepositoryUrl>
     <PackageTags>CLSS</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.1</Version>
-    <PackageReleaseNotes>- Reduce comment redundancy.</PackageReleaseNotes>
+    <Version>1.1.1</Version>
+    <PackageReleaseNotes>- Added language-sensitive syntax highlighting in README file.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
